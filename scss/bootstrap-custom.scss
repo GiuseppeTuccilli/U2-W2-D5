@@ -41,6 +41,22 @@ footer{
     }
     
 }
+img{
+    transition: 0.2s linear;
+}
+
+#carouselExample img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+#carouselExample2 img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+#carouselExample3 img:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
 
 $dark:    #141414;      
 
