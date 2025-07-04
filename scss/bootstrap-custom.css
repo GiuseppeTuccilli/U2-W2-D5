@@ -25,19 +25,34 @@ img {
   transition: 0.2s linear;
 }
 
+#carouselExample div {
+  position: relative;
+}
+
+#carouselExample2 div {
+  position: relative;
+}
+
+#carouselExample3 div {
+  position: relative;
+}
+
 #carouselExample img:hover {
-  transform: scale(1.5);
+  transform: scale(1.5), translateZ(5);
   cursor: pointer;
+  position: absolute;
 }
 
 #carouselExample2 img:hover {
-  transform: scale(1.5);
+  transform: scale(1.5), translateZ(5);
   cursor: pointer;
+  position: absolute;
 }
 
 #carouselExample3 img:hover {
-  transform: scale(1.5);
+  transform: scale(1.5), translateZ(5);
   cursor: pointer;
+  position: absolute;
 }
 
 /*!
