@@ -17,12 +17,14 @@ header{
 
 
 $new-theme-colors:(
-    "secondary":#818181,
+    
     "dark":  #141414,
      "superdark":   #000000, 
 );
 
 $theme-colors: map-merge($map1:$theme-colors , $map2:$new-theme-colors );
+
+
 
 
 
