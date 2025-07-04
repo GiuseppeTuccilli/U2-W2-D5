@@ -17,11 +17,30 @@ header{
 
 
 $new-theme-colors:(
+    "secondary":#818181,
     "dark":  #141414,
      "superdark":   #000000, 
 );
 
 $theme-colors: map-merge($map1:$theme-colors , $map2:$new-theme-colors );
+
+.carousel-inner{
+    height: 12em;
+    div{
+        height: 100%;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+footer{
+    i{
+        font-size: 2em;
+        margin-right: 0.8em
+    }
+    
+}
 
 $dark:    #141414;      
 
